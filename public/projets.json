@@ -1,0 +1,30 @@
+[
+  {
+    "id": "0",
+    "title": "OhMyFood",
+    "description": "OhMyFood est un site permettant la réservation en ligne de plats gastronomiques.",
+    "lien": "https://github.com/clementD99/Ohmyfood",
+    "github pages": "https://clementd99.github.io/Ohmyfood/"
+  },
+
+  {
+    "id": "1",
+    "title": "Print-It",
+    "description": "Print-It est une imprimerie où il faut recoder des parties du site : faire fonctionner le carrousel, permettre aux dots de bouger à chaque changement d'images.",
+    "lien": "https://github.com/clementD99/Print-it",
+    "github pages": "https://clementd99.github.io/Print-it/"
+  },
+
+  {
+    "id": "2",
+    "title": "Sophie Bluel",
+    "description": "Sophie Bluel est architecte d'intérieur",
+    "lien": "https://github.com/clementD99/Sophie-Bluel"
+  },
+
+  {
+    "id": "3",
+    "title": "Kasa",
+    "description": "Kasa est un site de réservation d'appartements"
+  }
+]
