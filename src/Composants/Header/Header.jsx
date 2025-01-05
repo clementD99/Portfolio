@@ -1,15 +1,14 @@
 import "../Header/header.scss";
-import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 
 function Header() {
   return (
     <div className="header">
-      <Link to="/">Accueil</Link>
-      <Link to="/#presentation">Présentation</Link>
-      <Link to="/#projets">Mes projets</Link>
+      <a href="/">Accueil</a>
+      <a href="#presentation">Présentation</a>
+      <a href="#projets">Mes projets</a>
+
       <div className="reseaux">
         <FontAwesomeIcon
           icon={faGithub}
