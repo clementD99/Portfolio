@@ -4,7 +4,8 @@
     "title": "OhMyFood",
     "description": "OhMyFood est un site permettant la réservation en ligne de plats gastronomiques.",
     "lien": "https://github.com/clementD99/Ohmyfood",
-    "github pages": "https://clementd99.github.io/Ohmyfood/"
+    "competences": ["Scss", "HTML"],
+    "github-pages": "https://clementd99.github.io/Ohmyfood/"
   },
 
   {
@@ -12,19 +13,38 @@
     "title": "Print-It",
     "description": "Print-It est une imprimerie où il faut recoder des parties du site : faire fonctionner le carrousel, permettre aux dots de bouger à chaque changement d'images.",
     "lien": "https://github.com/clementD99/Print-it",
-    "github pages": "https://clementd99.github.io/Print-it/"
+    "competences": ["JavaScript"],
+    "github-pages": "https://clementd99.github.io/Print-it/"
   },
 
   {
     "id": "2",
     "title": "Sophie Bluel",
-    "description": "Sophie Bluel est architecte d'intérieur",
+    "description": "Sophie Bluel est architecte d'intérieur.",
     "lien": "https://github.com/clementD99/Sophie-Bluel"
   },
 
   {
     "id": "3",
     "title": "Kasa",
-    "description": "Kasa est un site de réservation d'appartements"
+    "description": "Kasa est un site de réservation d'appartements.",
+    "lien": "https://github.com/clementD99/Kasa",
+    "competences": ["React"]
+  },
+
+  {
+    "id": "4",
+    "title": "Nina Carducci",
+    "description": "Nina Carducci est photographe. Le but de ce projet, était d'optimiser son site en : réduisant le JavaScript inutilisé, passer vers un format plus léger pour les images et référencer son site grâce aux meta.",
+    "lien": "https://github.com/clementD99/Nina-Carducci",
+    "competences": ["Accesibilité", "Wave", "Lighthouse"],
+    "github-pages": "https://clementd99.github.io/Nina-Carducci/"
+  },
+
+  {
+    "id": "5",
+    "title": "724events",
+    "description": "Spécialisé dans l'évenementiel, 724events a eu besoin que des bugs soient résolus sur son site.",
+    "lien": "https://github.com/clementD99/724events"
   }
 ]
