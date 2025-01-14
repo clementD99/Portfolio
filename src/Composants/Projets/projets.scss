@@ -1,0 +1,14 @@
+.projets {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 50px;
+  background-color: #eef5a2;
+}
+
+.projets-details {
+  display: flex;
+  justify-content: space-around;
+  background-color: gray;
+  width: 40%;
+}
