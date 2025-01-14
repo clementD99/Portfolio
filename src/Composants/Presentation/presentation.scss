@@ -1,5 +1,55 @@
-.titre {
+#presentation {
   display: flex;
-  align-items: center;
-  color: red;
+  justify-content: center;
+}
+
+.introduction {
+  text-align: center;
+}
+
+.introduction h1 {
+  font-size: 28px;
+  text-decoration: underline;
+}
+
+.introduction p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.introduction span {
+  font-size: 18px;
+}
+
+//***** Pour les compétences *****//
+
+.acquis {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.acquis svg {
+  font-size: 35px;
+  padding-top: 10px;
+}
+
+.acquis .html:hover {
+  color: #e44d26;
+}
+
+.acquis .css:hover {
+  color: #663399;
+}
+
+.acquis .js:hover {
+  color: #f7df1e;
+}
+
+.acquis .sass:hover {
+  color: #bf4080;
+}
+
+.acquis .react:hover {
+  color: #5CD9FF;
 }
