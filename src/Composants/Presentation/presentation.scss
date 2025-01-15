@@ -1,24 +1,16 @@
-#presentation {
-  display: flex;
-  justify-content: center;
-}
-
 .introduction {
   text-align: center;
-}
-
-.introduction h1 {
-  font-size: 28px;
-  text-decoration: underline;
-}
-
-.introduction p {
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.introduction span {
-  font-size: 18px;
+  h1 {
+    font-size: 28px;
+    text-decoration: underline;
+  }
+  p {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  span {
+    font-size: 18px;
+  }
 }
 
 //***** Pour les compétences *****//
@@ -26,30 +18,31 @@
 .acquis {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   gap: 20px;
-}
 
-.acquis svg {
-  font-size: 35px;
-  padding-top: 10px;
-}
+  svg {
+    font-size: 35px;
+    padding-top: 10px;
+  }
 
-.acquis .html:hover {
-  color: #e44d26;
-}
+  .html {
+    color: #e44d26;
+  }
 
-.acquis .css:hover {
-  color: #663399;
-}
+  .css {
+    color: #663399;
+  }
 
-.acquis .js:hover {
-  color: #f7df1e;
-}
+  .js {
+    color: #f7df1e;
+  }
 
-.acquis .sass:hover {
-  color: #bf4080;
-}
+  .sass {
+    color: #bf4080;
+  }
 
-.acquis .react:hover {
-  color: #5CD9FF;
+  .react {
+    color: #5cd9ff;
+  }
 }
