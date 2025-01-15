@@ -3,7 +3,7 @@
     "id": "0",
     "title": "Booki",
     "description": "Booki est un site de réservation d'hébergements.",
-    "image": "assets/images/logo-booki.webp",
+    "image": "logo-booki.webp",
     "lien": "https://github.com/clementD99/Booki",
     "competences": ["CSS", "HTML"],
     "github-pages": "https://clementd99.github.io/Booki/"
@@ -13,7 +13,7 @@
     "id": "1",
     "title": "OhMyFood",
     "description": "OhMyFood est un site permettant la réservation en ligne de plats gastronomiques.",
-    "image": "assets/images/ohmyfood.webp",
+    "image": "ohmyfood.webp",
     "lien": "https://github.com/clementD99/Ohmyfood",
     "competences": ["Scss", "HTML"],
     "github-pages": "https://clementd99.github.io/Ohmyfood/"
@@ -23,7 +23,7 @@
     "id": "2",
     "title": "Print-It",
     "description": "Print-It est une imprimerie où il faut recoder des parties du site : faire fonctionner le carrousel, permettre aux dots de bouger à chaque changement d'images.",
-    "image": "assets/images/logo-Print-it.webp",
+    "image": "logo-Print-it.webp",
     "lien": "https://github.com/clementD99/Print-it",
     "competences": ["JavaScript"],
     "github-pages": "https://clementd99.github.io/Print-it/"
@@ -33,7 +33,7 @@
     "id": "3",
     "title": "Sophie Bluel",
     "description": "Sophie Bluel est architecte d'intérieur.",
-    "image": "assets/images/logo-sophie-bluel.webp",
+    "image": "logo-sophie-bluel.webp",
     "lien": "https://github.com/clementD99/Sophie-Bluel",
     "competences": ["JavaScript"]
   },
@@ -42,16 +42,17 @@
     "id": "4",
     "title": "Kasa",
     "description": "Kasa est un site de réservation d'appartements.",
-    "image": "assets/images/logo-kasa.webp",
+    "image": "logo-kasa.webp",
     "lien": "https://github.com/clementD99/Kasa",
-    "competences": ["React"]
+    "competences": ["React"],
+    "github-pages": "https://6787ef622f6fc24c98eda574--incredible-mousse-123f13.netlify.app/"
   },
 
   {
     "id": "5",
     "title": "Nina Carducci",
     "description": "Nina Carducci est photographe. Le but de ce projet, était d'optimiser son site en : réduisant le JavaScript inutilisé, passer vers un format plus léger pour les images et référencer son site grâce aux meta.",
-    "image": "assets/images/nina.webp",
+    "image": "nina.webp",
     "lien": "https://github.com/clementD99/Nina-Carducci",
     "competences": ["Accesibilité", "Wave", "Lighthouse"],
     "github-pages": "https://clementd99.github.io/Nina-Carducci/"
@@ -61,8 +62,19 @@
     "id": "6",
     "title": "724events",
     "description": "Spécialisé dans l'évenementiel, 724events a eu besoin que des bugs soient résolus sur son site.",
-    "image": "assets/images/logo-724events.webp",
+    "image": "logo-724events.webp",
     "lien": "https://github.com/clementD99/724events",
-    "competences": ["ReactDeveloperTools"]
+    "competences": ["ReactDeveloperTools"],
+    "github-pages": "https://6787f08e179436007b6590c3--comforting-sunshine-6d5c59.netlify.app/"
+  },
+
+  {
+    "id": "7",
+    "title": "ArgentBank",
+    "description": "ArgentBank est un site où plusieurs contraintes sont demandés : authentification des utilisateurs, gérer les transactions et créer un swagger",
+    "image": "argentBankLogo.webp",
+    "lien": "https://github.com/clementD99/ArgentBank",
+    "competences": ["React", "swagger", "MongoDB"],
+    "github-pages": "https://6787f632f915f31b29646582--neon-sopapillas-2b8df5.netlify.app/"
   }
 ]
