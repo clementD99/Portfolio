@@ -1,6 +1,8 @@
 import { useState } from "react";
 import "./projets.scss";
 import projets from "../../donnees/projets.json";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faReadme } from "@fortawesome/free-brands-svg-icons";
 
 function Projets() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -52,7 +54,7 @@ function Projets() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Voir le projet sur GitHub
+              <FontAwesomeIcon icon={faGithub} title="Vers le repo GitHub"></FontAwesomeIcon>
             </a>
             {modalContent["github-pages"] && (
               <a
@@ -60,7 +62,7 @@ function Projets() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Voir le projet en ligne
+                <FontAwesomeIcon icon={faReadme} title="Vers le lien en ligne"></FontAwesomeIcon>
               </a>
             )}
             <button onClick={closeModal}>Fermer</button>
