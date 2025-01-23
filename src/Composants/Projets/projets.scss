@@ -6,6 +6,10 @@
     font-size: 28px;
     background-color: #eef5a2;
     margin-bottom: 0;
+
+    @media (max-width: 375px) {
+      font-size: 20px;
+    }
   }
 }
 
@@ -24,6 +28,10 @@
   border-radius: 10px;
   width: 30%;
   overflow: hidden;
+
+  @media (max-width: 375px) {
+    overflow: visible;
+  }
 
   img {
     max-width: 100%;
@@ -60,6 +68,10 @@
   h3 {
     font-size: 24px;
     margin-bottom: 15px;
+
+    @media (max-width: 375px) {
+      font-size: 20px;
+    }
   }
 
   p {
@@ -86,6 +98,10 @@
     font-size: 25px;
     margin: 10px 0;
 
+    @media (max-width: 375px) {
+      font-size: 20px;
+    }
+
     svg {
       color: black;
     }
@@ -103,6 +119,10 @@
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
+
+    @media (max-width: 375px) {
+      font-size: 14px;
+    }
 
     :hover {
       background-color: #d32f2f;
