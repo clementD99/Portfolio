@@ -40,8 +40,8 @@ function Acquis() {
         icon={faSass}
       ></FontAwesomeIcon>
       <span>
-        Sass pour créer chaque feuille de style pour un fichier sans devoir
-        créer un fichier css de plusieurs centaines de lignes.
+        Sass pour créer chaque feuille de style pour un fichier spécifique. Sans
+        devoir créer un fichier css de plusieurs centaines de lignes.
       </span>
       <FontAwesomeIcon
         className="react"
