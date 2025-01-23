@@ -1,0 +1,41 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+  background-color: #fafaf5;
+
+  p {
+    font-size: 18px;
+  }
+
+  a {
+    text-decoration: none;
+    color: red;
+  }
+}
+
+.liens {
+  display: flex;
+  justify-content: center;
+}
+
+.icones {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  svg {
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+  .linkedin:hover {
+    color: #0a66c2;
+  }
+
+  .gmail:hover {
+    color: #ea4335;
+    cursor: none;
+  }
+}
