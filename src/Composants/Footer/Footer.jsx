@@ -43,7 +43,7 @@ function Footer() {
           </section>
         </div>
       </div>
-      <p>@2025, Clément Desmur.</p>
+      <p>© 2025, Clément Desmur.</p>
     </div>
   );
 }
