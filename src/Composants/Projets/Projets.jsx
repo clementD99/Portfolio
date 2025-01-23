@@ -54,7 +54,10 @@ function Projets() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FontAwesomeIcon icon={faGithub} title="Vers le repo GitHub"></FontAwesomeIcon>
+              <FontAwesomeIcon
+                icon={faGithub}
+                title="Vers le repo GitHub"
+              ></FontAwesomeIcon>
             </a>
             {modalContent["github-pages"] && (
               <a
@@ -62,7 +65,10 @@ function Projets() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FontAwesomeIcon icon={faReadme} title="Vers le lien en ligne"></FontAwesomeIcon>
+                <FontAwesomeIcon
+                  icon={faReadme}
+                  title="Vers le site en ligne"
+                ></FontAwesomeIcon>
               </a>
             )}
             <button onClick={closeModal}>Fermer</button>
