@@ -74,7 +74,7 @@
     "description": "ArgentBank est un site où plusieurs contraintes sont demandés : authentification des utilisateurs, gérer les transactions et créer un swagger",
     "image": "argentBankLogo.webp",
     "lien": "https://github.com/clementD99/ArgentBank",
-    "competences": ["React", "swagger", "MongoDB"],
+    "competences": ["React", "Swagger", "MongoDB"],
     "github-pages": "https://6787f632f915f31b29646582--neon-sopapillas-2b8df5.netlify.app/"
   }
 ]
