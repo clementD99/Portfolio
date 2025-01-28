@@ -1,3 +1,7 @@
+#presentation {
+  padding: 20px 0;
+}
+
 .introduction {
   text-align: center;
   h1 {
@@ -11,6 +15,7 @@
   p {
     font-size: 20px;
     font-weight: bold;
+    padding: 10px 0;
 
     @media (max-width: 375px) {
       font-size: 18px;
@@ -18,6 +23,7 @@
   }
   span {
     font-size: 18px;
+    padding: 10px 0;
 
     @media (max-width: 375px) {
       font-size: 16px;
