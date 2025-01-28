@@ -22,9 +22,11 @@ function Projets() {
 
   return (
     <div className="titre">
-      <h2>Mes projets</h2>
+      {/* <h2>Mes projets</h2> */}
       <section className="projets">
-        {projets.map((projet) => (
+      <h2>Mes projets</h2>
+      <div className="images-projets">
+      {projets.map((projet) => (
           <div
             className="projets-details"
             key={projet.id}
@@ -36,8 +38,8 @@ function Projets() {
             />
           </div>
         ))}
+      </div>
       </section>
-
       {/* Modal */}
       {isModalOpen && modalContent && (
         <div className="modal-overlay" onClick={closeModal}>
