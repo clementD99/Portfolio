@@ -1,4 +1,4 @@
-import Header from "./composants/Header/Header";
+import Header from "../src/composants/Header/Header";
 import Presentation from "./composants/Presentation/Presentation";
 import Accueil from "./composants/Accueil/Accueil";
 import Projets from "./composants/Projets/Projets";
