@@ -1,8 +1,8 @@
 import Header from "../src/composants/Header/Header";
-import Presentation from "./composants/Presentation/Presentation";
-import Accueil from "./composants/Accueil/Accueil";
-import Projets from "./composants/Projets/Projets";
-import Footer from "./composants/Footer/Footer";
+import Presentation from "../src/composants/Presentation/Presentation";
+import Accueil from "../src/composants/Accueil/Accueil";
+import Projets from "../src/composants/Projets/Projets";
+import Footer from "../src/composants/Footer/Footer";
 
 function App() {
   return (
