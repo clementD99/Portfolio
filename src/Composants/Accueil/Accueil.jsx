@@ -1,4 +1,4 @@
-import "../Accueil/accueil.scss";
+import "./accueil.scss";
 import imgAccueil from "../../assets/images/imgAccueil.webp";
 
 function Accueil() {

@@ -1,4 +1,4 @@
-import "../Footer/footer.scss";
+import "./footer.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithub,

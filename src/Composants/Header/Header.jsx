@@ -1,4 +1,4 @@
-import "../Header/header.scss";
+import "./header.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 
